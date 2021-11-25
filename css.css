@@ -1,0 +1,65 @@
+main {
+    width: 98vw;
+}
+
+.pessoas {
+    width: 100%;
+    display: flex;
+}
+
+.divisaoPessoa {
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.inputdiv {
+    display: flex;
+}
+
+.msginput {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    height: 50%;
+    width: 200px;
+    padding-left: 5px;
+}
+
+.enviaMensagem, .botao2 {
+    padding: 10px;
+    background-color: rgb(98, 98, 218);
+    border-radius: 5px;
+}
+
+.botao2 {
+    background-color: rgb(204, 85, 85);
+}
+
+#chat {
+    min-height: 200px;
+    border: black solid 1px; 
+    font-size: 18px;
+}
+
+.fundo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(98, 98, 218);
+    margin: 0;
+}
+
+.fundo2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(204, 85, 85);
+    margin: 0;
+}
+
+.datacss {
+    font-size: 13px;
+}
